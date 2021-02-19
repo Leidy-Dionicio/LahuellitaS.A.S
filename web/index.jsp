@@ -162,19 +162,19 @@
                     <h1>Redes Sociales</h1>
 <br>
                     <div class="row">
-                        <a href="https://www.facebook.com/Fabrica-de-calzado-La-Huellita-102309948173903"><img src="css/facebook.png"></a>
+                        <a href="https://www.facebook.com/Fabrica-de-calzado-La-Huellita-102309948173903"><img src="img/facebook.png"></a>
                         <label>Siguenos en Facebook</label>
                     </div>
                     <div class="row">
-                         <a href="#"><img src="css/twitter.png"></a>
+                         <a href="#"><img src="img/twitter.png"></a>
                         <label>Siguenos en Twitter</label>
                     </div>
                     <div class="row">
-                         <a href="#"><img src="css/instagram.png"></a>
+                         <a href="#"><img src="img/instagram.png"></a>
                         <label>Siguenos en Instagram</label>
                     </div>
                     <div class="row">
-                         <a href="#"><img src="css/google-plus.png"></a>
+                         <a href="#"><img src="img/google-plus.png"></a>
                         <label>Siguenos en Google Plus</label>
                     </div>
 
@@ -187,18 +187,18 @@
                     <br>
 
                     <div class="row2">
-                        <img src="css/house.png">
+                        <img src="img/house.png">
                         <label>Facatativa, Cundinamarca
                         Carrera 15 N°11-23</label>
                     </div>
 
                     <div class="row2">
-                        <img src="css/smartphone.png">
+                        <img src="img/smartphone.png">
                         <label>+57 3023260677 </label>
                     </div>
 
                     <div class="row2">
-                        <img src="css/contact.png">
+                        <img src="img/contact.png">
                          <label>lahuellitasas@gmail.com</label>
                     </div>
 
