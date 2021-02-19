@@ -11,57 +11,87 @@
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos3.css">
 </head>
-<body>
+
+<style>
+    #imag img{
+       
+        max-width:  500px;
+        height: 400px;
+        
+    }
+ 
+    
+</style>
+<body style="background: url('img/fondo.jpg')no-repeat;">
+    
+    
     <header>
         <div class="contenedor">
+            <section style="margin-top: 1%">
             <h1><i class="icon ion-md-walk">La huellita S.A.S</i></h1>
             <input type="checkbox" id="menu-bar">
             <label class="icon-menu" for="menu-bar"></label>
             <nav class="menu">
-                <a href="index.jsp">Inicio</a>
-                <a href="nomina.jsp">Nomina</a>
-                <a href="inventario.jsp">Inventario</a>
+                
+                <a style="border: 2px #1f53c5 solid;margin: 3px; background: oldlace; margin-left: -340px"  href="index.jsp">Inicio</a>
+                <a style="border: 2px #1f53c5 solid; margin: 3px; background: oldlace;" href="nomina.jsp">Nomina</a>
+                <a style="border: 2px #1f53c5 solid; margin: 3px; background: oldlace;" href="inventario.jsp">Inventario</a>
+                
             </nav>
+            </section>
         </div>
     </header>
     
+
+    
     <main>
         <section id="banner">
-            <img src="img/banner.png">
+            <img src="img/1.jpeg" style="width: 95%; height: 140%; margin: 2%">
             <div class="contenedor">
             <h2></h2>
             <p></p>
             </div>
         </section>
+        <br>
         <section id="Bienvenidos empleados">
-            <h2><center>Bienvenido Señor usuario a su espacio de trabajo virtual</center></h2>
-            <p><center>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem ea eum alias reiciendis, tempore fugiat, distintio nihil corrupti hic nostrum!</center></p>
+            <br>
+             <br>
+             <br>
+             <br>
+             <br>
+            <h2><center>Bienvenido Señor usuario</center></h2>
+            <p><center style="font-family: 'Verdana'">En esta pagina encontraras todo lo relacionaod con las ultimas producciones al igual que los contactos para hacer tus pedidos si estas interesad@. Comunicate con nosotros para darte una atención mas personalizada. Por cierto queremos contarte que somos una empresa facatativeña que lleva alrededor de 5 años en el mercado, esperamos que disdrutes de nuestros productos tanto como nosotros lo hacemos y nos des sugerencias para poder seguir mejorando y darte cada dia mas un mejor servicio. Gracias!! </center></p>
         </section>
-        
-        <section id="blog">
-            <h3>Ultimas producciones</h3>
+        <h3 style="text-align-last: center">Ultimas producciones</h3>
+        <section id="blog" style="margin-left: -16%">
+            
+            <br>
             <div class="contenedor">
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="box-shadow: 10px 5px 20px salmon">
   <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" transition: transform="20s" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
   </div>
-  <div class="carousel-inner">
+                    
+                    <section id="imag">
+                    <div class="carousel-inner">
     <div class="carousel-item active">
-        <img src="img/Botas-mujer.jpg" class="d-block w-100" alt="...">
+        <img style="" src="img/10.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-        <img src="img/Zapato-deportivo.png" class="d-block w-100" alt="...">
+        <img src="img/11.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-        <img src="img/Zapato-elegante.jpg" class="d-block w-100" alt="...">
+        <img src="img/13.jpg" class="d-block w-100" alt="...">
     </div>
       <div class="carousel-item">
-          <img src="img/Zapato-infantil.jpg" class="d-block w-100" alt="...">
+          <img src="img/Zapato-elegante.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
+                    </section>
+                        
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
@@ -70,10 +100,27 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
-</div>
+</div>   
+                
             </div>
         </section>
+        
+        
+        <section id="colora" style="text-align-last: center; float: right; width: 400px; height: 100px; margin-top: -25%; margin-right: 12%; font-family: 'Verdana'">
+            <div class="list-group">
+  <a class="list-group-item list-group-item-action active" aria-current="true">
+    Elija el tipo de zapatos que desea buscar
+  </a>
+  <a href="" class="list-group-item list-group-item-action">Calazado Elegante</a>
+  <a href="" class="list-group-item list-group-item-action">Bota para Dama</a>
+  <a href="" class="list-group-item list-group-item-action">Zapato/Tenni Colegial</a>
+  <a href="" class="list-group-item list-group-item-action">Bota Industrial</a>
+</div>
+        </section>
+        
+        <hr>
         <section id="info">
+            <h3>Conozca nuestro grupo de trabajo</h3>
             <div class="contenedor">
                 <div class="info-users">
                     <img src="img/Leidy.jpeg">
@@ -94,10 +141,87 @@
             </div>
         </section>
     </main>
-    <footer>
-        <div class="contenedor">
-            <p class="copy">La huellita S.A.S &copy; 2021</p>
+    
+    <hr>
+    
+    <footer id="contactos">
+       
+       <div class="container-footer-all">
+        
+            <div class="container-body">
+
+                <div class="colum1">
+                    <h1>Mas información de la compañia</h1>
+                    <br>
+                    <p>LA HUELLITA S.A.S es una MIPYME que se encarga de la manufactura de todo tipo de calzado ofreciendo calidad en todos sus productos ya que son minuciosamente fabricados para dar la mejor terminación que se puede optar en el mercado. Somos una empresa familiar que se destaca por la originalidad e indole de esta clase.</p>
+
+                </div>
+
+                <div class="colum2">
+                    
+                    <h1>Redes Sociales</h1>
+<br>
+                    <div class="row">
+                        <a href="https://www.facebook.com/Fabrica-de-calzado-La-Huellita-102309948173903"><img src="img/facebook.png"></a>
+                        <label>Siguenos en Facebook</label>
+                    </div>
+                    <div class="row">
+                         <a href="#"><img src="img/twitter.png"></a>
+                        <label>Siguenos en Twitter</label>
+                    </div>
+                    <div class="row">
+                         <a href="#"><img src="img/instagram.png"></a>
+                        <label>Siguenos en Instagram</label>
+                    </div>
+                    <div class="row">
+                         <a href="#"><img src="img/google-plus.png"></a>
+                        <label>Siguenos en Google Plus</label>
+                    </div>
+
+
+                </div>
+
+                <div class="colum3">
+
+                    <h1>Informacion Contactos</h1>
+                    <br>
+
+                    <div class="row2">
+                        <img src="img/house.png">
+                        <label>Facatativa, Cundinamarca
+                        Carrera 15 N°11-23</label>
+                    </div>
+
+                    <div class="row2">
+                        <img src="img/smartphone.png">
+                        <label>+57 3023260677 </label>
+                    </div>
+
+                    <div class="row2">
+                        <img src="img/contact.png">
+                         <label>lahuellitasas@gmail.com</label>
+                    </div>
+
+                </div>
+
             </div>
+        
+        </div>
+        
+        <div class="container-footer">
+               <div class="footer">
+                    <div class="copyright">
+                        © 2021 Todos los Derechos Reservados | <a href="#Inicios">LA HUELLITA S.A.S</a>
+                    </div>
+
+                    <div class="information">
+                        <a href="">Informacion Compañia</a> | <a href="">Privacion y Politica</a> | <a href="">Terminos y Condiciones</a>
+                    </div>
+                </div>
+
+            </div>
+        
     </footer>
+    
 </body>
 </html>
